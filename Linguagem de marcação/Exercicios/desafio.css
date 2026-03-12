@@ -1,0 +1,17 @@
+h1{
+    border: 1px solid rgb(27, 255, 6);
+    background-color: brown;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse; 
+    
+}
+table,td{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.preto{
+    background-color: black;
+}
