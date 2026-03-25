@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+    color: rgb(251, 255, 0);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 203, 5);
+}
+
+button{
+    display: flex;
+    justify-content: right;
+    align-items: first baseline;
+    
+}
+
+div{
+    width: 298px;
+    height: auto;
+    text-align: left;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
