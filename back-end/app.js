@@ -1,7 +1,7 @@
 let user = [
-    {id:1, nome:"Charizard", numero: "6", tipo: "Fogo", habilidade:"Blaze",},
+    {id:1, nome:"Charizard", numero: "6", tipo: "Fogo/Flying", habilidade:"Blaze",},
     {id:2, nome:"Squirtle", numero: "7", tipo: "Água", habilidade:"Torrent",},
-    {id:3, nome:"Caterpie", numero: "29", tipo: "Poison", habilidade:"Rivalry",},
+    {id:3, nome:"Caterpie", numero: "29", tipo: "Poison", habilidade:["Rivalry", "Poison Point",],},
     {id:4, nome:"Mewtwo", numero: "150", tipo: "Psíquico", habilidade:"Pressure",},
 ]
 
