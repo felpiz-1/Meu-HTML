@@ -4,19 +4,42 @@
     box-sizing: border-box;
 
 }
-
-
-
-.box1{
-    align-items: center;
-    width: 100%;
-    padding: auto;
-
+body{
+    background-color: rgba(190, 201, 192, 0.986);
+    font-family: 'Arial', sans-serif;
 }
 
 .box{
+    margin: 20px auto;
     width: 300px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+    background-color: rgb(255, 255, 255);
+}
+
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.box h3{
+    color: #333;
+    margin: 10px 0;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(54, 156, 41);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(20, 88, 20);
+    cursor: pointer;
 }
