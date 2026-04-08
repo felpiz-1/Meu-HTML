@@ -1,0 +1,30 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --batata: rgb(51, 255, 0);
+    --texto: red;
+}
+
+.senai {
+    background-color: var(--batata);
+    color: var(--texto);
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    padding: 1rem;
+}
+
+.galo {
+    width:auto;
+    
+    background-color: var(--batata);
+    color: var(--texto);
+    font-size: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
